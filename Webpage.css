@@ -8,16 +8,17 @@ html{
 }
 
 .navbar{
+
 	position:absolute;
 	left:99px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	background-color:rgb(66, 63, 54);
+	background-color:rgb(0,0,0,0.8);
 	position:fixed;
 	height:60px;
 	width:1100px;
-	border:2px solid black;
+	border:2px solid rgb(0,0,0,0.2);
 	border-radius:60px;
 	padding:19px;
 }
@@ -60,8 +61,8 @@ html{
 
 .nav-list button{
 	font-size:17px;
-	background-color:rgb(66, 63, 54);
-	border:2px solid rgb(66, 63, 54);
+	background-color:rgb(0,0,0,0.1);
+	border:2px solid rgb(0,0,0,0.1);
 	border-radius:20px;
 	padding:7px;
 	transition:10 sec;
@@ -100,20 +101,21 @@ html{
 	z-index:-1;
 	position:absolute;
 	bottom:2px;
-	top:120px;
+	top:2px;
 	left:px;
-	width:1366px;
-	height:536px;
+	width:1343px;
+	height:655px;
 }
 
 .bg-of-text{
+	z-index:-1;
 	position:absolute;
 	bottom:2px;
-	top:120px;
+	top:2px;
 	left:px;
 	background-color:rgb(0,0,0,0.6);
-	width:1366px;
-	height:536px;
+	width:1343px;
+	height:655px;
 }
 .h2-of-home{
 	position:absolute;
@@ -132,3 +134,34 @@ html{
 	width:95px;
 	height:95px;
 }
+
+.All-details{
+	
+}
+.about{
+	position:absolute;
+	top:780px;
+	padding:20px;
+}
+
+.about h2{
+	padding:20px;
+}
+
+.services{
+	position:absolute;
+	top:1080px;
+	padding:20px;
+}
+
+.services h2{
+	padding:20px;
+}
+.contact-us{
+	position:absolute;
+	top:1200px;
+	padding:20px;
+}
+
+.contact-us h2{
+	padding:20px;
