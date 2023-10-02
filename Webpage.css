@@ -3,13 +3,22 @@
 	padding:0;
 }
 
+html{
+	scroll-behavior:smooth;
+}
+
 .navbar{
+	position:absolute;
+	left:25px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 	background-color:rgb(66, 63, 54);
 	position:fixed;
 	height:60px;
-	width:1329px;
+	width:1230px;
 	border:2px solid black;
-	border-radius:40px;
+	border-radius:60px;
 	padding:19px;
 }
 
@@ -52,6 +61,12 @@
 	width:65px;
 	height:65px;
 	position:absolute;
-	left:29px;
+	left:130px;
 	top:17px;
+}
+
+.para{
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
