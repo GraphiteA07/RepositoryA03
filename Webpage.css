@@ -23,6 +23,7 @@ html{
 }
 
 
+
 .nav-list{
 	position:absolute;
 	left:200px;
@@ -36,9 +37,10 @@ html{
 }
 
 .nav-list li{
+	
 	list-style:none;
-	padding:8px;
-	font-size:17px;
+	padding:1px;
+	font-size:px;
 	font-family:sans-serif;
 	
 	
@@ -47,17 +49,26 @@ html{
 
 .nav-list a{
 	color:white;
-	
-	transition:0.3 sec;
 	text-decoration:none;
-	padding:60px;
+    padding:30px;
+    	
 }
 
-.nav-list a:hover{
-	color:rgb(25, 219, 230);
-	
-}
 
+
+
+
+.nav-list button{
+	font-size:17px;
+	background-color:rgb(66, 63, 54);
+	border:2px solid rgb(66, 63, 54);
+	border-radius:20px;
+	padding:7px;
+}
+.nav-list button:hover{
+	color:white;
+	background-color:rgb(7, 199, 4);
+}
 .logo img{
 	border:2px solid green;
 	border-radius:28px;
@@ -79,7 +90,7 @@ html{
 	bottom:34px;
 	left:129px;
 	font-family:Cooper;
-	color:rgb(7, 199, 4)
+	color:rgb(7, 199, 4);
 }
 
 .home-image{
