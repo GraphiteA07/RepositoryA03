@@ -64,10 +64,13 @@ html{
 	border:2px solid rgb(66, 63, 54);
 	border-radius:20px;
 	padding:7px;
+	transition:10 sec;
 }
 .nav-list button:hover{
 	color:white;
-	background-color:rgb(7, 199, 4);
+	background-color:rgb(16, 191, 10);
+	border:2px solid black;
+	
 }
 .logo img{
 	border:2px solid green;
