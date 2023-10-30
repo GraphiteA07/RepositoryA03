@@ -136,6 +136,9 @@ html{
 }
 
 .All-details{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	
 }
 .about{
@@ -150,7 +153,7 @@ html{
 
 .Our-mission{
 	position:absolute;
-	top:1080px;
+	top:220px;
 	padding:20px;
 }
 
@@ -159,9 +162,31 @@ html{
 }
 .Why-choose-us{
 	position:absolute;
-	top:1200px;
+	top:400px;
 	padding:20px;
 }
 
 .Why-choose-us h2{
 	padding:20px;
+}
+
+.what-sets-us-apart{
+	position:absolute;
+    top:590px;
+}
+
+.small-details{
+	position:absolute;
+	top:665px;
+	padding: 15px 35px;
+	
+}
+
+.small-details h3{
+	padding:14px;
+}
+
+.small-details p{
+	padding:8px;
+}
+
