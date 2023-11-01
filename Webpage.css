@@ -166,7 +166,7 @@ html{
 }
 .Our-mission{
 	position:absolute;
-	top:220px;
+	top:100px;
 	padding:20px;
 }
 
@@ -185,11 +185,8 @@ html{
 
 .what-sets-us-apart{
 	position:absolute;
-	left:400px;
-	top:
-}
-}
-	
+	left:30px;
+	top:100px;
 }
 
 
@@ -197,7 +194,7 @@ html{
 }
 .small-details{
 	position:absolute;
-	top:720px;
+	top:900px;
 	padding: 15px 35px;
 	
 }
