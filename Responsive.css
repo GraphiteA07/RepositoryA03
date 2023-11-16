@@ -28,10 +28,14 @@
 	height:200px;
 }
 
+.nav-list{
+	position:relative;
+	top:2rem;
+	left:2rem;
+}
 .nav-items {
 	
 	position:relative;
-	
 	top:1rem;
 	left:5rem;
 	right:9rem;
@@ -43,6 +47,7 @@
     
 }
 .nav-items li{
+	
 	display:flex;
 	justify-content:column;
 	padding:0px;
