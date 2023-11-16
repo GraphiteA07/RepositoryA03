@@ -1,0 +1,125 @@
+/******************************************
+        RESPONSIVE <CODE> FOR SMALL DEVICES
+******************************************/
+
+@media only screen and (max-width:320px){
+	*{
+		margin:0px;
+		padding:0px;
+	}
+.anchor{
+	
+		color:black;
+		padding:0px 1px;
+		font-size:9px;
+	}
+ .background-image{
+	position:absolute;
+	top:0px;
+	bottom:290px;
+	z-index:-1;
+	
+	width:99.5vw;
+	height:200px;
+}
+
+.main-home-print{
+	width:99.5vw;
+	height:200px;
+}
+
+.nav-items {
+	
+	position:relative;
+	
+	top:1rem;
+	left:5rem;
+	right:9rem;
+	width:80vw;
+	height:80vh;
+	background-color:rgb(7, 199, 4);
+	padding:0px 0px;
+	align-items:center;
+    
+}
+.nav-items li{
+	display:flex;
+	justify-content:column;
+	padding:0px;
+}
+
+.navbar{
+	width:99.5vw;
+	height:20px;
+	
+}
+.mobile-navbar-btn{
+	z-index:999;
+    display:block;
+	/*padding-left:122px;*/
+}
+.mobile-navbar-icon{
+    color:white;
+	width:1rem;
+	height:1rem;
+}
+
+.mobile-navbar-icon[name="close"]{
+	display:none;
+}
+
+
+.nav-logo{
+	padding:0px 0px;
+}
+.nav-logo img{
+	border:2px solid black;
+	width:19px;
+    height:19px;
+	border-radius:19px;
+}
+
+.nav-logo p{
+	z-index:-1;
+	padding:0px 0px;
+	width:40px;
+	font-weight:bold;
+	font-size:10px;
+	font-family:Cooper;
+	color:rgb(7, 199, 4);
+}
+
+.home-print img:nth-child(1){
+	z-index:-1;
+	border:2px solid black;
+	border-radius:50px;
+	width:40px;
+	height:40px;
+}
+
+.home-print{
+	font-size:12px;
+    position:absolute;
+	left:43px;
+	top:84px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.home-print h2{
+	opacity:34%;
+	font-size:12px;
+}
+
+.paras{
+	margin:0px 30px 0px 30px;
+	font-size:12px;
+}
+
+.all-about h2{
+	z-index:-1;
+	font-size:16px;
+}
+
+} /*end of media query*/

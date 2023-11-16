@@ -5,7 +5,7 @@
 
 html{
 	scroll-behavior:smooth;
-	/*overflow-x:hidden;*/
+	overflow-x:hidden;
 }
 
 ::-webkit-scrollbar{
@@ -90,6 +90,16 @@ html{
 	
 }
 
+.mobile-navbar-btn{
+	display:none;
+}
+.mobile-navbar-icon{
+	color:white;
+	width:1.5rem;
+	height:1.5rem;
+	
+}
+
 
 .main-home-print{
 	background-color:rgb(0,0,0,0.6);
@@ -124,6 +134,7 @@ html{
 }
 
 .home-print h2{
+	
 	padding: 0px 15px;
 	font-family:Cooper;
 	color:rgb(7, 199, 4);
@@ -190,71 +201,3 @@ html{
 	margin:auto 200px;
 }
 
-
-@media only screen and (max-width:320px){
- .background-image{
-	position:absolute;
-	bottom:290px;
-	z-index:-1;
-	width:100vw;
-	height:200px;
-}
-
-.main-home-print{
-	width:100vw;
-	height:200px;
-}
-
-.navbar{
-	height:20px;
-	
-}
-
-.nav-logo img{
-	border:2px solid black;
-	width:20px;
-    height:20px;
-	border-radius:20px;
-}
-
-.nav-logo p{
-	padding:0px 4px;
-	width:50px;
-	font-weight:bold;
-	font-size:10px;
-	font-family:Cooper;
-	color:rgb(7, 199, 4);
-}
-
-.home-print img:nth-child(1){
-	z-index:-1;
-	border:2px solid black;
-	border-radius:50px;
-	width:40px;
-	height:40px;
-}
-
-.home-print{
-	font-size:12px;
-    position:absolute;
-	left:43px;
-	top:84px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
-.home-print h2{
-	font-size:12px;
-}
-
-.paras{
-	margin:auto 36px;
-	font-size:12px;
-}
-
-.all-about h2{
-	font-size:16px;
-}
-
-} /*end of media query*/
