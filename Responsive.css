@@ -9,16 +9,15 @@
 	}
 .anchor{
 	
-		color:black;
+		color:white;
 		padding:0px 1px;
-		font-size:9px;
+		font-size:10px;
 	}
  .background-image{
 	position:absolute;
 	top:0px;
 	bottom:290px;
 	z-index:-1;
-	
 	width:99.5vw;
 	height:200px;
 }
@@ -28,29 +27,44 @@
 	height:200px;
 }
 
+.nav-items{
+	border:2px solid black;
+	border-radius:8px;
+	position:relative;
+	background-color:green;
+    top:6.9rem;
+    left: 8.6rem;
+    height: 12rem;
+    width: 7rem;
+	/*transform:translateX(100%);
+	transition:all 0.5s linear;*/
+}
+
+.nav-items .active{
+	transform:translateX(0);
+	opacity:1;
+	visibility:visible;
+	pointer-events:auto;
+}
+
+.active,.mobile-navbar-icon[name="close"]{
+	display:block;
+}
+
+.active,.mobile-navbar-icon[name="menu"]{
+	
+}
 .nav-list{
-	position:relative;
-	top:2rem;
-	left:2rem;
-}
-.nav-items {
-	
-	position:relative;
-	top:1rem;
-	left:5rem;
-	right:9rem;
-	width:80vw;
-	height:80vh;
-	background-color:rgb(7, 199, 4);
-	padding:0px 0px;
-	align-items:center;
-    
-}
-.nav-items li{
-	
+    position: relative;
+    top: 0.7rem;
+	left:0.7rem;
 	display:flex;
-	justify-content:column;
-	padding:0px;
+    flex-direction:column;
+  padding:7px 0px;
+}
+
+.nav-list li{
+	padding: 6px 1rem;
 }
 
 .navbar{
@@ -59,6 +73,8 @@
 	
 }
 .mobile-navbar-btn{
+    position: absolute;
+    left: 18rem;
 	z-index:999;
     display:block;
 	/*padding-left:122px;*/
@@ -69,8 +85,18 @@
 	height:1rem;
 }
 
+.mobile-navbar-icon2{
+	display:block;
+	border:2xp solid white;
+	border-radius:2rem;
+	position:relative;
+	left:5.77rem;
+	top:0.5rem;
+	color:white;
+	width:1rem;
+	height:1rem;
+}
 .mobile-navbar-icon[name="close"]{
-	display:none;
 }
 
 
@@ -113,8 +139,8 @@
 }
 
 .home-print h2{
-	opacity:34%;
-	font-size:12px;
+	font-size: 9.95px;
+    padding: 0px 2px;
 }
 
 .paras{
