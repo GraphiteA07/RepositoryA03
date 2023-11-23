@@ -82,7 +82,10 @@ html{
 	padding: 0px 1rem;
 }
 
-
+.input{
+	position:absolute;
+	left:-5rem;
+}
 
 .anchor {
 	padding:20px 20px;
