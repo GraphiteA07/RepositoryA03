@@ -2,11 +2,11 @@
         RESPONSIVE <CODE> FOR SMALL DEVICES
 ******************************************/
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:425px){
 *{
 	margin:0px;
-	padding:0px;	
-	}
+	padding:0px;
+}
 	
 html{
 	scroll-behavior:smooth;
@@ -23,13 +23,13 @@ html{
 	top:0px;
 	bottom:290px;
 	z-index:-1;
-	width:99.5vw;
-	height:200px;
+	width:98.5vw;
+	height:45vh;
 }
 
 .main-home-print{
-	width:99.5vw;
-	height:200px;
+	width:98.5vw;
+	height:45vh;
 }
 
 .nav-items{
@@ -38,31 +38,29 @@ html{
 	position:relative;
 	background-color:green;
     top:6.9rem;
-    left: 8.6rem;
+    left: 43vw;
     height: 12rem;
     width: 7rem;
-	transform:translateX(100%);
-	transition:all 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.29);
+	transform:translateX(155%);
+	opacity:0;
+	transition:all 0.5s ease-out;
 ;
 }
 
 
 #click:checked ~.nav-items{
 	transform:translateX(0%);
+	opacity:1;
 }
+
 
 .input{
 	position:absolute;
 	left:-5rem;
 }
 
-.active,.mobile-navbar-icon[name="close"]{
-	display:block;
-}
 
-.active,.mobile-navbar-icon[name="menu"]{
-	
-}
+
 .nav-list{
     position: relative;
     top: 0.7rem;
@@ -82,53 +80,44 @@ ul.nav-items{
 
 .navbar{
 	width:99.5vw;
-	height:20px;
+	height:6vh;
 	
 }
 .mobile-navbar-btn{
     position: absolute;
-    left: 18rem;
+    left: 90vw;
 	z-index:999;
     display:block;
 	/*padding-left:122px;*/
 }
+
+
 .mobile-navbar-icon{
     color:white;
 	width:1rem;
 	height:1rem;
 }
 
-.mobile-navbar-icon2{
-	display:block;
-	border:2xp solid white;
-	border-radius:2rem;
-	position:relative;
-	left:5.77rem;
-	top:0.5rem;
-	color:white;
-	width:1rem;
-	height:1rem;
-}
-.mobile-navbar-icon[name="close"]{
-}
+
+
 
 
 .nav-logo{
-	padding:0px 0px;
+	padding:0px 10px;
 }
 .nav-logo img{
 	border:2px solid black;
-	width:19px;
-    height:19px;
+	width:20px;
+    height:20px;
 	border-radius:19px;
 }
 
 .nav-logo p{
 	z-index:-1;
 	padding:0px 0px;
-	width:40px;
+	width:45px;
 	font-weight:bold;
-	font-size:10px;
+	font-size:12px;
 	font-family:Cooper;
 	color:rgb(7, 199, 4);
 }
@@ -144,8 +133,8 @@ ul.nav-items{
 .home-print{
 	font-size:12px;
     position:absolute;
-	left:43px;
-	top:84px;
+	left:22vw;
+	top:19vh;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -187,7 +176,7 @@ ul.nav-items{
 	height:2rem;
     width: 7rem;
     font-size: 20px;
-    margin: 0px 6rem;
+    margin:0px 30vw;
 }
 
 
@@ -230,4 +219,146 @@ ul.nav-items{
 }
 /*********************************
       End of media query
-**********************************
+*********************************/
+
+
+ /************************************
+    FOR NAVIGATION BAR
+**************************************/
+
+
+
+@media only screen and (min-width:326px){
+#click:checked ~.nav-items{
+	transform:translateX(4%);
+	
+}
+
+}
+
+@media only screen and (min-width:332px){
+#click:checked ~.nav-items{
+	transform:translateX(6%);
+	
+}
+
+}
+
+@media only screen and (min-width:338px){
+#click:checked ~.nav-items{
+	transform:translateX(10%);
+	
+}
+
+}
+
+@media only screen and (min-width:344px){
+#click:checked ~.nav-items{
+	transform:translateX(12%);
+	
+}
+
+}
+
+@media only screen and (min-width:350px){
+#click:checked ~.nav-items{
+	transform:translateX(15%);
+	
+}
+
+}
+
+@media only screen and (min-width:356px){
+#click:checked ~.nav-items{
+	transform:translateX(18%);
+	
+}
+
+}
+
+@media only screen and (min-width:362px){
+#click:checked ~.nav-items{
+	transform:translateX(21%);
+	
+}
+
+}
+
+@media only screen and (min-width:368px){
+#click:checked ~.nav-items{
+	transform:translateX(24%);
+	
+}
+
+}
+
+@media only screen and (min-width:374px){
+#click:checked ~.nav-items{
+	transform:translateX(27%);
+	
+}
+
+}
+
+@media only screen and (min-width:380px){
+#click:checked ~.nav-items{
+	transform:translateX(31%);
+	
+}
+
+}
+
+@media only screen and (min-width:386px){
+#click:checked ~.nav-items{
+	transform:translateX(33%);
+	
+}
+}
+
+@media only screen and (min-width:392px){
+#click:checked ~.nav-items{
+	transform:translateX(36%);
+	
+}
+
+}
+
+@media only screen and (min-width:398px){
+#click:checked ~.nav-items{
+	transform:translateX(39%);
+	
+}
+
+}
+
+@media only screen and (min-width:404px){
+#click:checked ~.nav-items{
+	transform:translateX(42%);
+	
+}
+
+}
+
+@media only screen and (min-width:410px){
+#click:checked ~.nav-items{
+	transform:translateX(45%);
+	
+}
+
+}
+
+@media only screen and (min-width:416px){
+#click:checked ~.nav-items{
+	transform:translateX(48%);
+	
+}
+
+}
+
+@media only screen and (min-width:422px){
+#click:checked ~.nav-items{
+	transform:translateX(51%);
+	
+}
+
+}

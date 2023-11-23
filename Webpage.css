@@ -1,6 +1,7 @@
 *{
 	margin:0;
 	padding:0;
+  
 }
 
 html{
@@ -191,7 +192,7 @@ html{
 	align-items:center;
 	align-content:stretch;
 	justify-content:center;
-	margin:0px 36rem;
+	margin:0px 42vw;
 	width:11.5rem;
 	margin-bottom:1.4rem;
 	height:2.54rem;
@@ -258,7 +259,7 @@ html{
 	opacity:0%;
 	position:absolute;
 	left:0px;
-	top:119rem;
+	top:110rem;
 	
 }
 
