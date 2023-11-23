@@ -37,8 +37,8 @@ html{
 	border-radius:8px;
 	position:relative;
 	background-color:green;
-    top:6.9rem;
-    left: 43vw;
+    top:7.1rem;
+    left: 35vw;
     height: 12rem;
     width: 7rem;
 	transform:translateX(155%);
@@ -238,7 +238,7 @@ ul.nav-items{
 
 @media only screen and (min-width:332px){
 #click:checked ~.nav-items{
-	transform:translateX(6%);
+	transform:translateX(7%);
 	
 }
 
@@ -246,7 +246,7 @@ ul.nav-items{
 
 @media only screen and (min-width:338px){
 #click:checked ~.nav-items{
-	transform:translateX(10%);
+	transform:translateX(11%);
 	
 }
 
@@ -254,7 +254,7 @@ ul.nav-items{
 
 @media only screen and (min-width:344px){
 #click:checked ~.nav-items{
-	transform:translateX(12%);
+	transform:translateX(14%);
 	
 }
 
@@ -262,7 +262,7 @@ ul.nav-items{
 
 @media only screen and (min-width:350px){
 #click:checked ~.nav-items{
-	transform:translateX(15%);
+	transform:translateX(17%);
 	
 }
 
@@ -270,7 +270,7 @@ ul.nav-items{
 
 @media only screen and (min-width:356px){
 #click:checked ~.nav-items{
-	transform:translateX(18%);
+	transform:translateX(20%);
 	
 }
 
@@ -278,7 +278,7 @@ ul.nav-items{
 
 @media only screen and (min-width:362px){
 #click:checked ~.nav-items{
-	transform:translateX(21%);
+	transform:translateX(24%);
 	
 }
 
@@ -286,7 +286,7 @@ ul.nav-items{
 
 @media only screen and (min-width:368px){
 #click:checked ~.nav-items{
-	transform:translateX(24%);
+	transform:translateX(27%);
 	
 }
 
@@ -294,7 +294,7 @@ ul.nav-items{
 
 @media only screen and (min-width:374px){
 #click:checked ~.nav-items{
-	transform:translateX(27%);
+	transform:translateX(30%);
 	
 }
 
@@ -302,7 +302,7 @@ ul.nav-items{
 
 @media only screen and (min-width:380px){
 #click:checked ~.nav-items{
-	transform:translateX(31%);
+	transform:translateX(34%);
 	
 }
 
@@ -310,14 +310,14 @@ ul.nav-items{
 
 @media only screen and (min-width:386px){
 #click:checked ~.nav-items{
-	transform:translateX(33%);
+	transform:translateX(37%);
 	
 }
 }
 
 @media only screen and (min-width:392px){
 #click:checked ~.nav-items{
-	transform:translateX(36%);
+	transform:translateX(41%);
 	
 }
 
@@ -325,7 +325,7 @@ ul.nav-items{
 
 @media only screen and (min-width:398px){
 #click:checked ~.nav-items{
-	transform:translateX(39%);
+	transform:translateX(44%);
 	
 }
 
@@ -333,7 +333,7 @@ ul.nav-items{
 
 @media only screen and (min-width:404px){
 #click:checked ~.nav-items{
-	transform:translateX(42%);
+	transform:translateX(48%);
 	
 }
 
@@ -341,7 +341,7 @@ ul.nav-items{
 
 @media only screen and (min-width:410px){
 #click:checked ~.nav-items{
-	transform:translateX(45%);
+	transform:translateX(50%);
 	
 }
 
@@ -349,7 +349,7 @@ ul.nav-items{
 
 @media only screen and (min-width:416px){
 #click:checked ~.nav-items{
-	transform:translateX(48%);
+	transform:translateX(54%);
 	
 }
 
@@ -357,7 +357,7 @@ ul.nav-items{
 
 @media only screen and (min-width:422px){
 #click:checked ~.nav-items{
-	transform:translateX(51%);
+	transform:translateX(57%);
 	
 }
 
