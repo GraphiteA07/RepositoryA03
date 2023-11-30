@@ -6,10 +6,13 @@
 *{
 	margin:0px;
 	padding:0px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	box-sizing:border-box;
 }
 	
 html{
 	scroll-behavior:smooth;
+	
 }
 
 .anchor{
@@ -53,7 +56,6 @@ html{
 	opacity:1;
 }
 
-
 .input{
 	position:absolute;
 	left:-5rem;
@@ -79,6 +81,7 @@ ul.nav-items{
 }
 
 .navbar{
+	scroll-padding:1rem ,0,0,0;
 	width:99.5vw;
 	height:6vh;
 	
@@ -228,7 +231,7 @@ ul.nav-items{
 
 
 
-@media only screen and (min-width:326px){
+@media screen and (min-width:326px){
 #click:checked ~.nav-items{
 	transform:translateX(4%);
 	
@@ -362,3 +365,4 @@ ul.nav-items{
 }
 
 }
+
