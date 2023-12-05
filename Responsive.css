@@ -6,11 +6,17 @@
 *{
 	margin:0px;
 	padding:0px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	box-sizing:border-box;
 }
 	
 html{
 	scroll-behavior:smooth;
+<<<<<<< HEAD
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
+=======
+	
+>>>>>>> main
 }
 
 
@@ -57,7 +63,6 @@ html{
 	opacity:1;
 }
 
-
 .input{
 	position:absolute;
 	left:-5rem;
@@ -83,6 +88,7 @@ ul.nav-items{
 }
 
 .navbar{
+	scroll-padding:1rem ,0,0,0;
 	width:99.5vw;
 	height:6vh;
 	
@@ -231,3 +237,143 @@ ul.nav-items{
      For >425px 
 **********************************/
 
+<<<<<<< HEAD
+=======
+
+
+@media screen and (min-width:326px){
+#click:checked ~.nav-items{
+	transform:translateX(4%);
+	
+}
+
+}
+
+@media only screen and (min-width:332px){
+#click:checked ~.nav-items{
+	transform:translateX(7%);
+	
+}
+
+}
+
+@media only screen and (min-width:338px){
+#click:checked ~.nav-items{
+	transform:translateX(11%);
+	
+}
+
+}
+
+@media only screen and (min-width:344px){
+#click:checked ~.nav-items{
+	transform:translateX(14%);
+	
+}
+
+}
+
+@media only screen and (min-width:350px){
+#click:checked ~.nav-items{
+	transform:translateX(17%);
+	
+}
+
+}
+
+@media only screen and (min-width:356px){
+#click:checked ~.nav-items{
+	transform:translateX(20%);
+	
+}
+
+}
+
+@media only screen and (min-width:362px){
+#click:checked ~.nav-items{
+	transform:translateX(24%);
+	
+}
+
+}
+
+@media only screen and (min-width:368px){
+#click:checked ~.nav-items{
+	transform:translateX(27%);
+	
+}
+
+}
+
+@media only screen and (min-width:374px){
+#click:checked ~.nav-items{
+	transform:translateX(30%);
+	
+}
+
+}
+
+@media only screen and (min-width:380px){
+#click:checked ~.nav-items{
+	transform:translateX(34%);
+	
+}
+
+}
+
+@media only screen and (min-width:386px){
+#click:checked ~.nav-items{
+	transform:translateX(37%);
+	
+}
+}
+
+@media only screen and (min-width:392px){
+#click:checked ~.nav-items{
+	transform:translateX(41%);
+	
+}
+
+}
+
+@media only screen and (min-width:398px){
+#click:checked ~.nav-items{
+	transform:translateX(44%);
+	
+}
+
+}
+
+@media only screen and (min-width:404px){
+#click:checked ~.nav-items{
+	transform:translateX(48%);
+	
+}
+
+}
+
+@media only screen and (min-width:410px){
+#click:checked ~.nav-items{
+	transform:translateX(50%);
+	
+}
+
+}
+
+@media only screen and (min-width:416px){
+#click:checked ~.nav-items{
+	transform:translateX(54%);
+	
+}
+
+}
+
+@media only screen and (min-width:422px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+
+}
+
+>>>>>>> main
