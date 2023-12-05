@@ -88,9 +88,7 @@
 #click:checked ~.nav-items{
 	transform:translateX(37%);
 }
-.all-about h1{
-	margin:0px 33vw;
-}
+
 }
 
 @media only screen and (min-width:392px){
@@ -105,9 +103,7 @@
 #click:checked ~.nav-items{
 	transform:translateX(44%);
 }
-.home-print{
-	left:25vw;
-}
+
 
 }
 
@@ -115,9 +111,7 @@
 #click:checked ~.nav-items{
 	transform:translateX(48%);
 }
-.all-about h1{
-	margin:0px 34vw;
-}
+
 
 }
 
@@ -142,16 +136,30 @@
 	transform:translateX(57%);
 }
 
-.all-about h1{
-	margin:0px 35vw;
-}
+
 
 }
 
 @media only screen and (min-width:428px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-	
+}
+.home-print{
+   top: 23dvh;
+    left: 27dvw;
+}
+ .background-image{
+	height:53vh;
+}
+
+.main-home-print{
+	height:53vh;
+}
+.all-about h1{
+	margin: 0px 34dvw;
+}
+.home-print h2{
+	font-size:12px;
 }
 }
 
