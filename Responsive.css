@@ -145,7 +145,7 @@ ul.nav-items{
 	align-items:center;
 }
 
-.home-print h2{
+.home-print h1{
 	font-size: 9.95px;
     padding: 0px 2px;
 }
@@ -206,7 +206,7 @@ ul.nav-items{
 }
 
 .para-for-contact-us{
-	margin:20px 3rem;
+	    margin: 20px 8rem;
 }
 
 .para-for-contact-us p{
@@ -375,7 +375,7 @@ ul.nav-items{
 	align-items:center;
 }
 
-.home-print h2{
+.home-print h1{
 	font-size: 9.95px;
     padding: 0px 2px;
 }
@@ -455,6 +455,8 @@ ul.nav-items{
 }
 }
 
-
+/**********************************
+     For >630px
+***********************************/
 
 

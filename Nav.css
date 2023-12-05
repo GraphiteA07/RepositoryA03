@@ -1,7 +1,15 @@
 /************************************
     FOR NAVIGATION BAR
 **************************************/
+@media only screen and (min-width:320px){
+#click:checked ~.nav-items{
+	transform:translateX(4%);
+}
+.home-print{
+	left:23vw;
+}
 
+}
 
 
 @media only screen and (min-width:326px){
@@ -39,9 +47,11 @@
 @media only screen and (min-width:350px){
 #click:checked ~.nav-items{
 	transform:translateX(17%);
-	
 }
-
+.Packages img{
+	    width: 17rem;
+    height: 23rem;
+}
 }
 
 @media only screen and (min-width:356px){
@@ -88,15 +98,19 @@
 #click:checked ~.nav-items{
 	transform:translateX(37%);
 }
-
+.Packages img{
+	    width: 18rem;
+    height: 24rem;
+}
 }
 
 @media only screen and (min-width:392px){
 #click:checked ~.nav-items{
 	transform:translateX(41%);
-	
 }
-
+.home-print{
+	left:25vw;
+}
 }
 
 @media only screen and (min-width:398px){
@@ -135,12 +149,9 @@
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }
-
-
-
 }
 
-@media only screen and (min-width:428px){
+@media only screen and (min-width:426px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }
@@ -160,6 +171,12 @@
 }
 .home-print h2{
 	font-size:12px;
+}
+}
+
+@media only screen and (min-width:428px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
 }
 }
 
@@ -264,14 +281,19 @@
 @media only screen and (min-width:518px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-	
+}
+.Packages img{
+	    width: 19rem;
+    height: 25rem;
 }
 }
 
 @media only screen and (min-width:524px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-	
+}
+.home-print{
+	left:31dvw;
 }
 }
 
@@ -303,7 +325,7 @@
 }
 }
 
-@media only screen and (min-width:544px){
+@media only screen and (min-width:554px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 	
@@ -313,6 +335,238 @@
 @media only screen and (min-width:560px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-	
+}	
+}
+
+@media only screen and (min-width:566px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:572px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:578px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:584px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:590px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:596px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+.Packages img{
+	width: 20rem;
+    height: 26rem;
+}
+}
+
+@media only screen and (min-width:602px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:608px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:614px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:620px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:626px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}
+
+.all-about h1 {
+    margin: 0px 38dvw;
+}
+}
+
+@media only screen and (min-width:632px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:638px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:644px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:650px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:656px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:662px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:668px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:674px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:680px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:686px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:692px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:698px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:704px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:710px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:716px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:722px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:728px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:734px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+
+@media only screen and (min-width:740px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:746px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:752px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:758px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:764px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
+}
+@media only screen and (min-width:768px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}
+.paras{
+	margin:0px 111px;
+}
+.Packages img{
+	    width: 25rem;
+    height: 35rem;
+}
+.small-details{
+	padding:15px 100px;
+}
+.para-for-contact-us{
+	    margin: 20px 8rem;
+}
+.para-for-contact-us p{
+	font-size:1.25rem;
+}
+.all-about p{
+	font-size:1.1rem;	
+}
+.small-details p{
+	font-size:1.1rem;
+}
+}
+@media only screen and (min-width:770px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}	
 }
 }
