@@ -317,8 +317,7 @@
 	
 }
 }
-
-@media only screen and (min-width:548px){
+ @media only screen and (min-width:548px){ 
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 	
@@ -499,7 +498,32 @@
 @media only screen and (min-width:722px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-}	
+}
+.paras{
+	margin:0px 111px;
+}
+.Packages img{
+	    width: 25rem;
+    height: 35rem;
+}
+.small-details{
+	padding:15px 100px;
+}
+.para-for-contact-us{
+	    margin: 20px 8rem;
+}
+.para-for-contact-us p{
+	font-size:1.25rem;
+}
+.all-about p{
+	font-size:1.1rem;	
+}
+.small-details p{
+	font-size:1.1rem;
+}
+.nav-items li{
+	padding:8px;
+}
 }
 @media only screen and (min-width:728px){
 #click:checked ~.nav-items{
@@ -510,13 +534,22 @@
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }	
+
 }
+
 
 @media only screen and (min-width:740px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }	
 }
+
+@media only screen and (min-width:744px){
+ .nav-items li{
+	padding:10px;
+ }
+}
+
 @media only screen and (min-width:746px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
@@ -541,32 +574,14 @@
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }
-.paras{
-	margin:0px 111px;
-}
-.Packages img{
-	    width: 25rem;
-    height: 35rem;
-}
-.small-details{
-	padding:15px 100px;
-}
-.para-for-contact-us{
-	    margin: 20px 8rem;
-}
-.para-for-contact-us p{
-	font-size:1.25rem;
-}
-.all-about p{
-	font-size:1.1rem;	
-}
-.small-details p{
-	font-size:1.1rem;
-}
+
 }
 @media only screen and (min-width:770px){
 #click:checked ~.nav-items{
 	transform:translateX(57%);
-}	
 }
+.nav-items li{
+	padding:14px;
+}
+
 }
