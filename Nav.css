@@ -1,0 +1,310 @@
+/************************************
+    FOR NAVIGATION BAR
+**************************************/
+
+
+
+@media only screen and (min-width:326px){
+#click:checked ~.nav-items{
+	transform:translateX(4%);
+	
+}
+
+}
+
+@media only screen and (min-width:332px){
+#click:checked ~.nav-items{
+	transform:translateX(7%);
+	
+}
+
+}
+
+@media only screen and (min-width:338px){
+#click:checked ~.nav-items{
+	transform:translateX(11%);
+	
+}
+
+}
+
+@media only screen and (min-width:344px){
+#click:checked ~.nav-items{
+	transform:translateX(14%);
+	
+}
+
+}
+
+@media only screen and (min-width:350px){
+#click:checked ~.nav-items{
+	transform:translateX(17%);
+	
+}
+
+}
+
+@media only screen and (min-width:356px){
+#click:checked ~.nav-items{
+	transform:translateX(20%);
+	
+}
+
+}
+
+@media only screen and (min-width:362px){
+#click:checked ~.nav-items{
+	transform:translateX(24%);
+	
+}
+
+}
+
+@media only screen and (min-width:368px){
+#click:checked ~.nav-items{
+	transform:translateX(27%);
+	
+}
+
+}
+
+@media only screen and (min-width:374px){
+#click:checked ~.nav-items{
+	transform:translateX(30%);
+	
+}
+
+}
+
+@media only screen and (min-width:380px){
+#click:checked ~.nav-items{
+	transform:translateX(34%);
+	
+}
+
+}
+
+@media only screen and (min-width:386px){
+#click:checked ~.nav-items{
+	transform:translateX(37%);
+}
+.all-about h1{
+	margin:0px 33vw;
+}
+}
+
+@media only screen and (min-width:392px){
+#click:checked ~.nav-items{
+	transform:translateX(41%);
+	
+}
+
+}
+
+@media only screen and (min-width:398px){
+#click:checked ~.nav-items{
+	transform:translateX(44%);
+}
+.home-print{
+	left:25vw;
+}
+
+}
+
+@media only screen and (min-width:404px){
+#click:checked ~.nav-items{
+	transform:translateX(48%);
+}
+.all-about h1{
+	margin:0px 34vw;
+}
+
+}
+
+@media only screen and (min-width:410px){
+#click:checked ~.nav-items{
+	transform:translateX(50%);
+}
+
+
+}
+
+@media only screen and (min-width:416px){
+#click:checked ~.nav-items{
+	transform:translateX(54%);
+	
+}
+
+}
+
+@media only screen and (min-width:422px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+}
+
+.all-about h1{
+	margin:0px 35vw;
+}
+
+}
+
+@media only screen and (min-width:428px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:434px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:440px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:446px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:452px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:458px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:464px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:470px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:476px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:482px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:488px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:494px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:500px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:506px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:512px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:518px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:524px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:530px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:536px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:542px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:548px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:544px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}
+
+@media only screen and (min-width:560px){
+#click:checked ~.nav-items{
+	transform:translateX(57%);
+	
+}
+}

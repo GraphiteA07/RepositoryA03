@@ -2,7 +2,7 @@
         RESPONSIVE <CODE> FOR SMALL DEVICES
 ******************************************/
 
-@media only screen and (max-width:425px){
+@media only screen and (max-width:422px){
 *{
 	margin:0px;
 	padding:0px;
@@ -10,7 +10,10 @@
 	
 html{
 	scroll-behavior:smooth;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
 }
+
+
 
 .anchor{
 	color:white;
@@ -32,19 +35,20 @@ html{
 	height:45vh;
 }
 
+	
 .nav-items{
 	border:2px solid black;
 	border-radius:8px;
 	position:relative;
 	background-color:green;
-    top:6.9rem;
-    left: 43vw;
+    top:7.1rem;
+    left: 35vw;
     height: 12rem;
     width: 7rem;
 	transform:translateX(155%);
 	opacity:0;
 	transition:all 0.5s ease-out;
-;
+
 }
 
 
@@ -217,148 +221,13 @@ ul.nav-items{
 	height:3rem;
 	border-radius:2rem;
 }
+}
 /*********************************
       End of media query
 *********************************/
 
 
- /************************************
-    FOR NAVIGATION BAR
-**************************************/
+/*********************************
+     For >425px 
+**********************************/
 
-
-
-@media only screen and (min-width:326px){
-#click:checked ~.nav-items{
-	transform:translateX(4%);
-	
-}
-
-}
-
-@media only screen and (min-width:332px){
-#click:checked ~.nav-items{
-	transform:translateX(6%);
-	
-}
-
-}
-
-@media only screen and (min-width:338px){
-#click:checked ~.nav-items{
-	transform:translateX(10%);
-	
-}
-
-}
-
-@media only screen and (min-width:344px){
-#click:checked ~.nav-items{
-	transform:translateX(12%);
-	
-}
-
-}
-
-@media only screen and (min-width:350px){
-#click:checked ~.nav-items{
-	transform:translateX(15%);
-	
-}
-
-}
-
-@media only screen and (min-width:356px){
-#click:checked ~.nav-items{
-	transform:translateX(18%);
-	
-}
-
-}
-
-@media only screen and (min-width:362px){
-#click:checked ~.nav-items{
-	transform:translateX(21%);
-	
-}
-
-}
-
-@media only screen and (min-width:368px){
-#click:checked ~.nav-items{
-	transform:translateX(24%);
-	
-}
-
-}
-
-@media only screen and (min-width:374px){
-#click:checked ~.nav-items{
-	transform:translateX(27%);
-	
-}
-
-}
-
-@media only screen and (min-width:380px){
-#click:checked ~.nav-items{
-	transform:translateX(31%);
-	
-}
-
-}
-
-@media only screen and (min-width:386px){
-#click:checked ~.nav-items{
-	transform:translateX(33%);
-	
-}
-}
-
-@media only screen and (min-width:392px){
-#click:checked ~.nav-items{
-	transform:translateX(36%);
-	
-}
-
-}
-
-@media only screen and (min-width:398px){
-#click:checked ~.nav-items{
-	transform:translateX(39%);
-	
-}
-
-}
-
-@media only screen and (min-width:404px){
-#click:checked ~.nav-items{
-	transform:translateX(42%);
-	
-}
-
-}
-
-@media only screen and (min-width:410px){
-#click:checked ~.nav-items{
-	transform:translateX(45%);
-	
-}
-
-}
-
-@media only screen and (min-width:416px){
-#click:checked ~.nav-items{
-	transform:translateX(48%);
-	
-}
-
-}
-
-@media only screen and (min-width:422px){
-#click:checked ~.nav-items{
-	transform:translateX(51%);
-	
-}
-
-}
