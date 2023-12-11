@@ -64,13 +64,15 @@ html{
 }
 
 .nav-list{
-     display:flex;
-	 padding:0px 0rem;
-	
+    position: relative;
+    top: 0.3rem;
+	left:0.7rem;
+	display:flex;
+    flex-direction:column;
+  padding:7px 0px;
 }
+
 .nav-items{
-    
-    padding: 0px px;
 	font-size:16px;
 	font-family: sans-serif
 }
@@ -80,10 +82,15 @@ html{
 }
 
 .nav-items li{
-	display:flex;
-	flex-direction:row;
+	 /* display:flex; */
+	 flex-direction:row; 
 	list-style-type:none;
 	padding: 0px 10px;
+}
+
+/* .Nav-icons{ */
+	display:flex;
+	flex-direction:flex-end;
 }
 
 .input{
@@ -91,7 +98,7 @@ html{
 	left:-5rem;
 }
 
-.anchor {
+.anchor{
 	padding:20px 14px;
 	color:white;
 	background-color:rgb(0,0,0,0.0);
@@ -119,7 +126,7 @@ html{
 
 
 .main-home-print{
-	background-color:rgb(0,0,0,0.6);
+	background-color:rgb(0,0,0,0.3);
 	width:99.4vw;
 	height:40vh;
 }
@@ -127,10 +134,10 @@ html{
 
 .background-image{
 	position:absolute;
-	bottom:19rem;
+	bottom:0rem;
 	z-index:-1;
 	width:99.4vw;
-	height:40vh;
+	height:99vh;
 }
 
 .home-print img:nth-child(1){

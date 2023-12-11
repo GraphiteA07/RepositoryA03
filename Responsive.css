@@ -37,23 +37,13 @@ html{
 }
 
 	
-.nav-items{
-	border:2px solid black;
-	border-radius:8px;
-	position:relative;
-	background-color:green;
-    top:7.1rem;
-    left: 35vw;
-    height: 12rem;
-    width: 7rem;
-	transform:translateX(155%);
-	opacity:0;
-	transition:all 0.5s ease-out;
+.header{
+	
 
 }
 
 
-#click:checked ~.nav-items{
+#click:checked ~.header{
 	transform:translateX(0%);
 	opacity:1;
 }

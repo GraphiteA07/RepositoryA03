@@ -1,13 +1,90 @@
 /************************************
     FOR NAVIGATION BAR
 **************************************/
+@media only screen and (min-width:240px){
+  .background-image{
+	height:100vh;
+	width:99.6vw;
+  }
+  .main-home-print{
+	height:100vh;
+	width:99.6vw;
+  }
+  .home-print{
+	left:20dvw;
+	top:34dvh;
+  }
+  div.header{
+	height:0;
+	transition:height 0.3s linear;
+}
+  .open{
+    background-color: green;
+    border: 2px solid black;
+    border-radius:17px;
+    height:13.5rem;
+	opacity:1;
+    
+	
+}
+
+div.header,.open{
+	position: relative;
+    top: 27dvh;
+    left: 32.4dvw;
+	overflow-x:hidden;
+	overflow-y:hidden;
+    width: 8rem;
+
+}
+  #click:checked ~div.header{
+    /* transform:translateY(0%); */
+	opacity:1;
+}
+  .input{
+	position:absolute;
+	left:-5rem;
+}
+	
+}
+
+  div.header a{
+	text-decoration:none;
+	color:white;
+	padding-top:1px;
+}
+
+  div.header li{
+	 font-size:0.75rem;
+	 font-family:Segoe UI;
+	 padding:2px;
+	list-style-type:none;
+}
+
+
+
+  div.Nav-1,div.Nav-2,div.Nav-3,div.Nav-4,div.Nav-5{
+	display:flex;
+    padding:10px 9px;
+}
+
+
+
+  ion-icon{
+   padding: 0px 7px;
+    width: 1.2rem;
+    height: 1.1rem;
+}
+  .mobile-navbar-btn{
+	left:87vw;
+}
+}
 @media only screen and (min-width:320px){
 #click:checked ~.nav-items{
 	transform:translateX(4%);
 }
-.home-print{
-	left:23vw;
-}
+
+
 
 }
 
@@ -159,13 +236,7 @@
    top: 23dvh;
     left: 27dvw;
 }
- .background-image{
-	height:53vh;
-}
 
-.main-home-print{
-	height:53vh;
-}
 .all-about h1{
 	margin: 0px 34dvw;
 }
@@ -499,6 +570,14 @@
 #click:checked ~.nav-items{
 	transform:translateX(57%);
 }
+.background-image{
+	height:100vh;
+	width:99.6vw;
+  }
+  .main-home-print{
+	height:100vh;
+	width:99.6vw;
+  }
 .paras{
 	margin:0px 111px;
 }
