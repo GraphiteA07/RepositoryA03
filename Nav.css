@@ -3,40 +3,39 @@
 **************************************/
 @media only screen and (min-width:240px){
   .background-image{
-	height:100vh;
-	width:99.6vw;
+	height:100dvh;
+	width:99.8dvw;
   }
   .main-home-print{
-	height:100vh;
-	width:99.6vw;
+	height:100dvh;
+	width:99.8dvw;
   }
   .home-print{
 	left:20dvw;
 	top:34dvh;
   }
   div.header{
-	height:0;
-	transition:height 0.3s linear;
-}
-  .open{
-    background-color: green;
+	background-color: green;
     border: 2px solid black;
     border-radius:17px;
-    height:13.5rem;
-	opacity:1;
-    
-	
-}
-
-div.header,.open{
 	position: relative;
     top: 27dvh;
     left: 32.4dvw;
+	height:0px;
 	overflow-x:hidden;
 	overflow-y:hidden;
     width: 8rem;
-
+	transition:height 0.3s linear;
 }
+
+
+div.header.open{
+	height:13.5rem;
+	
+}
+	
+
+
   #click:checked ~div.header{
     /* transform:translateY(0%); */
 	opacity:1;
