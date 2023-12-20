@@ -15,31 +15,103 @@ html{
 }
 
 
-
-.anchor{
-	color:white;
-	padding:0px 1px;
-	font-size:10px;
-	}
 	
- .background-image{
-	position:absolute;
-	top:0px;
-	bottom:290px;
-	z-index:-1;
-	width:98.5vw;
-	height:45vh;
-}
+.background-image,.main-home-print{
+	height:100dvh;
+	width:99.8dvw;
+  }
 
+	
 .main-home-print{
-	width:98.5vw;
-	height:45vh;
+	background-color:rgb(0,0,0,0.3);
+  }
+  
+  .home-print{
+	left: 21dvw;
+    top: 45dvh;
+  }
+  
+  .home-print h1{
+	font-size:1rem;
+	padding:0px 15px;
+  }
+  
+  h4{
+	color:rgb(7, 199, 4);
+	position:absolute;
+	top:51.6dvh;
+	left:30dvw;
+	font-family:Cooper;
+	
+	
+  }
+  
+  .navbar{
+	width: 99.5vw;
+    height: 7.3vh;
+  }
+  div.header{
+	background-color:rgb(0,0,0,0.4);
+    border: 2px solid black;
+    border-radius:17px;
+	position: relative;
+    top: 25dvh;
+    left: 32.4dvw;
+	height:0px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+    width: 8rem;
+	transition:height 0.3s linear;
 }
 
+
+div.header.open{
+	height:13.5rem;
 	
-.header{
+}
 	
 
+
+  #click:checked ~div.header{
+    /* transform:translateY(0%); */
+	opacity:1;
+}
+  .input{
+	position:absolute;
+	left:-5rem;
+}
+	
+}
+
+  div.header a{
+	text-decoration:none;
+	color:white;
+	padding-top:1px;
+}
+
+  div.header li{
+	 font-size:0.75rem;
+	 font-family:Segoe UI;
+	 padding:2px;
+	list-style-type:none;
+}
+
+
+
+  div.Nav-1,div.Nav-2,div.Nav-3,div.Nav-4,div.Nav-5{
+	display:flex;
+    padding:10px 9px;
+}
+
+
+
+  ion-icon{
+   padding: 0px 7px;
+    width: 1.2rem;
+    height: 1.1rem;
+}
+  .mobile-navbar-btn{
+	left:87vw;
 }
 
 
@@ -53,24 +125,6 @@ html{
 	left:-5rem;
 }
 
-
-
-.nav-list{
-    position: relative;
-    top: 0.7rem;
-	left:0.7rem;
-	display:flex;
-    flex-direction:column;
-  padding:7px 0px;
-}
-
-.nav-list li{
-	padding: 6px 1rem;
-}
-
-ul.nav-items{
-	right:-100%;
-}
 
 .navbar{
 	scroll-padding:1rem ,0,0,0;
@@ -89,8 +143,8 @@ ul.nav-items{
 
 .mobile-navbar-btn i{
     color:white;
-	width:1rem;
-	height:1rem;
+	width:0.4rem;
+	height:0.4rem;
 }
 
 
@@ -135,10 +189,7 @@ ul.nav-items{
 	align-items:center;
 }
 
-.home-print h1{
-	font-size: 9.95px;
-    padding: 0px 2px;
-}
+
 
 .paras{
 	margin:0px 30px 0px 30px;
@@ -196,16 +247,13 @@ ul.nav-items{
 }
 
 .para-for-contact-us{
-	    margin: 20px 8rem;
+    margin: 20px 8rem;
 }
 
-.para-for-contact-us p{
+.para-for-contact-us p,.para-for-contact-us h3{
 	font-size:14px;
 }
 
-.para-for-contact-us h3{
-	font-size:14px;
-}
 
 .para-for-contact-us img{
 	width:3rem;
@@ -242,7 +290,7 @@ html{
 	font-size:10px;
 	}
 	
- .background-image{
+ /* .background-image{ */
 	position:absolute;
 	top:0px;
 	bottom:290px;
@@ -251,7 +299,7 @@ html{
 	height:45vh;
 }
 
-.main-home-print{
+/* .main-home-print{ */
 	width:98.5vw;
 	height:45vh;
 }

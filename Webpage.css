@@ -135,6 +135,7 @@ html{
 .background-image{
 	position:absolute;
 	bottom:0rem;
+	left:0rem;
 	z-index:-1;
 	width:99.4vw;
 	height:99vh;

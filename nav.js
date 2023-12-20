@@ -1,10 +1,43 @@
-const mobileNavbarIcon=document.querySelector('.mobile-navbar-icon');
-const header=document.querySelector('.header');
+function toggleHide(){
+   let btn=document.getElementById('btn');
+   let box=document.getElementById('box');
+   para.style.display='none';
+}
 
-mobileNavbarIcon.addEventListener ('click', () => {
-	alert('Welcome')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const mobileNavbarIcon=document.querySelector('.mobile-navbar-icon');
+// const header=document.querySelector('.header');
+
+// mobileNavbarIcon.addEventListener ('click', () => {
+	// alert('Welcome')
 	// header.classList.toggle('open')
-});
+// });
 
 
 
