@@ -2,6 +2,16 @@
     FOR NAVIGATION BAR
 **************************************/
 @media only screen and (min-width:240px){
+*{
+	margin:0px;
+	padding:0px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	box-sizing:border-box;
+}
+	
+html{
+	scroll-behavior:smooth;
+}
    .background-image,.main-home-print{
 	height:100dvh;
 	width:99.8dvw;
@@ -10,6 +20,14 @@
   .main-home-print{
 	background-color:rgb(0,0,0,0.3);
   }
+  
+   .background-image{
+	position:absolute;
+	top:0px;
+	bottom:290px;
+	z-index:-1;
+	width:98.5vw;
+}
   
   .home-print{
 	left: 21dvw;
@@ -88,16 +106,185 @@ div.header.open{
     padding:10px 9px;
 }
 
+   .welcome{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:Cooper;
+	font-weight:900;
+	color:rgb(54, 150, 163);
+   }
 
+   div#all-guys{
+	position:absolute;
+	top:127dvh;
+   }
+  .center-guy,.left-guy,.right-guy{
+
+    min-width: 46dvw;
+    min-height: 11rem;
+  }
+  
+  .center-guy{
+    z-index:-1;
+	top:-12dvh;
+	left:27dvw;
+  }
+  
+  .left-guy{
+    top: -6dvh;
+    left: -28dvh;               
+  }
+  
+   .right-guy{
+    left: 32dvh;
+    top: -43dvh;
+  }
+  
+  
 
   ion-icon{
    padding: 0px 7px;
     width: 1.2rem;
     height: 1.1rem;
 }
-  .mobile-navbar-btn{
-	left:87vw;
+  .mobile-navbar-icon{
+	color:white;
+	width:1.4rem;
+	height:1.4rem;
+	
 }
+
+.
+
+.navbar{
+	scroll-padding:1rem ,0,0,0;
+	width:99.5vw;
+	height:6vh;
+	
+}
+.mobile-navbar-btn{
+    position: absolute;
+    top: 0.2rem;
+    left: 85dvw;
+    z-index: 999;
+    display: block;
+}
+
+
+
+
+
+
+
+
+.nav-logo{
+	padding:0px 10px;
+}
+.nav-logo img{
+	border:2px solid black;
+	width:20px;
+    height:20px;
+	border-radius:19px;
+}
+
+.nav-logo p{
+	z-index:-1;
+	padding:0px 0px;
+	width:45px;
+	font-weight:bold;
+	font-size:12px;
+	font-family:Cooper;
+	color:rgb(7, 199, 4);
+}
+
+.home-print img:nth-child(1){
+	z-index:-1;
+	border:2px solid black;
+	border-radius:50px;
+	width:40px;
+	height:40px;
+}
+
+
+
+.paras{
+	margin:0px 30px 0px 30px;
+	font-size:12px;
+}
+
+.all-about h2{
+	
+	position:relative;
+	margin:1rem 0px;
+	padding:3px 2rem;
+	z-index:-1;
+	font-size:16px;
+}
+
+.all-about h2:after{
+	position:absolute;
+	top:1.4rem;
+	width:10rem;
+	height:2px;
+	left:1rem;
+}
+
+.padding{
+   margin:0px;
+   padding:0px;
+}
+
+.all-about h1 {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    margin: 0px 26dvw;
+    width: 9rem;
+    margin-bottom: 1.4rem;
+    height: 2.55rem;
+    border: 2px solid transparent;
+    border-radius: 0.8rem;
+    color: rgb(202 255 201);
+    font-family: COOPER;
+    background: linear-gradient(177deg, rgb(225 225 225), rgb(7 199 4));
+}
+
+
+
+.small-details ol{
+  list-style-type:square;
+}
+
+.small-details h3{
+	padding:1rem;
+	font-size:16px;
+}
+
+.small-details p{
+	font-size:14px;
+}
+
+.Packages img{
+	margin:1px;
+   width:16rem;
+   height:22rem;
+}
+
+.para-for-contact-us{
+	margin:20px 3rem;
+}
+
+
+.para-for-contact-us p,.para-for-contact-us h3{
+	font-size:14px;
+}
+
+.para-for-contact-us img{
+	width:3rem;
+	height:3rem;
+	border-radius:2rem;
 }
 @media only screen and (min-width:320px){
 #click:checked ~.nav-items{
