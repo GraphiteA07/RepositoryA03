@@ -8,17 +8,20 @@
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 	box-sizing:border-box;
 }
+
+
 	
 html{
 	scroll-behavior:smooth;
 }
   .background-image,.main-home-print{
     width:99.8dvw;
+    height:100dvh;
   }
   
   .main-home-print{
 	background-color:rgb(0,0,0,0.3);
-	height:93dvh;
+	
   }
   
    .background-image{
@@ -30,11 +33,16 @@ html{
 }
   
   .home-print{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
 	left: 21dvw;
     top: 45dvh;
   }
   
   .home-print h1{
+	color:
 	font-size:1rem;
 	padding:0px 15px;
   }
@@ -61,8 +69,8 @@ html{
     border: 2px solid black;
     border-radius:17px;
 	position: relative;
-    top: 25dvh;
-    left: 32.4dvw;
+    top: -1dvh;
+    left: 62.4dvw;
 	height:0px;
 	overflow-x:hidden;
 	overflow-y:hidden;
