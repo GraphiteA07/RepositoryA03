@@ -17,11 +17,11 @@ html{
 }
   .background-image,.main-home-print{
 	width:99.8dvw;
+	height:100dvh;
   }
   
   .main-home-print{
 	background-color:rgb(0,0,0,0.3);
-	height:93dvh;
   }
   
    .background-image{
@@ -29,7 +29,6 @@ html{
 	top:0px;
 	bottom:290px; 
 	z-index:-1;
-	height:100dvh;
 }
   
   .home-print{
@@ -59,6 +58,7 @@ html{
   }
   
   .navbar{
+	position:fixed;
 	border:2px solid black;
 	border-radius:6px;
     background-color:rgb(0,0,0,0.8);
@@ -167,14 +167,6 @@ div.header.open{
 	
 }
 
-.
-
-.navbar{
-	scroll-padding:1rem ,0,0,0;
-	width:99.5vw;
-	height:6vh;
-	
-}
 .mobile-navbar-btn{
     position: absolute;
     top: 0.4rem;
