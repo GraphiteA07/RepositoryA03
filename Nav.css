@@ -253,6 +253,24 @@ div.header.open{
 
 
 
+.small-details{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+    align-items: center;
+	padding: 15px 35px;
+	
+}
+
+.visa,.tailored,.comfort,.transparency,.train,.hotel,.accomodation,.meal{
+	border:2px solid black;
+	border-radius:30px;
+	width:16rem;
+	padding:1rem;
+	overflow:hidden;
+	margin:1rem;
+}
+
 .small-details ol{
   list-style-type:square;
 }
