@@ -120,7 +120,7 @@ div.header.open{
 }
 
    .welcome{
-    filter:url('https://www.freepik.com');
+    z-index:-1;
 	width:20rem;
 	height:20rem;
    }
