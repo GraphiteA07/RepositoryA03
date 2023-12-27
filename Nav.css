@@ -120,17 +120,15 @@ div.header.open{
 }
 
    .welcome{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	font-family:Cooper;
-	font-weight:900;
-	color:rgb(54, 150, 163);
+    filter:url('https://www.freepik.com');
+	width:20rem;
+	height:20rem;
    }
 
    div#all-guys{
 	position:absolute;
 	top:129dvh;
+	left:5dvw;
    }
   .center-guy,.left-guy,.right-guy{
 
@@ -154,7 +152,20 @@ div.header.open{
     top: -43dvh;
   }
   
+    /* .center-guy{ */
+	/* top:-3rem; */
+	/* left:5rem; */
+  /* } */
   
+  /* .left-guy{ */
+	/* left: -9rem; */
+    /* top: -1.5rem; */
+  /* } */
+  
+  /* .right-guy{ */
+    /* left: 10rem; */
+    /* top: -12.5rem; */
+  /* } */
 
   ion-icon{
    padding: 0px 7px;
@@ -218,7 +229,8 @@ div.header.open{
 
 .paras{
     margin: 0px 24px 0px 20px;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: clamp(13.5px, 2vw, 1rem);
 }
 
 .all-about h2{
@@ -284,6 +296,11 @@ div.header.open{
 	margin:1rem;
 }
 
+.tailored img{
+	width:9rem;
+	height:5.6rem;
+}
+
 .small-details ol{
   list-style-type:square;
 }
@@ -295,8 +312,9 @@ div.header.open{
 }
 
 .small-details p{
-	font-size:14px;
-	padding:8px;
+	/* font-size:14px; */
+    font-size: clamp(13.5px, 15px, 14.8px);
+    padding: 1px 11px 2px 11px;
 }
 
 .Packages{
